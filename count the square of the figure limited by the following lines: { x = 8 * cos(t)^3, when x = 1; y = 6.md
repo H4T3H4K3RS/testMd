@@ -17,12 +17,12 @@ $$S = \int_{\pi/3}^{2 \pi/3} y \cdot \frac{dx}{dt} \, dt = \int_{\pi/3}^{2 \pi/3
 
 Далее используем правило интегрирования по частям:
 
-\begin{align*}
+\begin
 S &= -432 \left(\int \cos^2 t \cdot \sin^3 t \, dt - \int \sin^3 t \cdot \frac{d}{dt} \cos^2 t \, dt\right) \\
 &= -432 \left(-\frac{\cos^3 t \sin^4 t}{4} + \frac{3 \cos t \sin^4 t}{4}\right) \Biggr\rvert_{\pi/3}^{2 \pi/3} \\
 &= -432 \left(-\frac{\sqrt[3]{1/8} \cdot (1/8)^{4/3}}{4} + \frac{3 \sqrt[3]{1/8} \cdot (1/8)^{4/3}}{4}\right) \\
 &= -432 \cdot \frac{1}{8} \cdot \frac{1}{4} \cdot \left(-1 + 3\right) = 54.
-\end{align*}
+\end
 
 **Ответ**: площадь фигуры равна 54.
 
