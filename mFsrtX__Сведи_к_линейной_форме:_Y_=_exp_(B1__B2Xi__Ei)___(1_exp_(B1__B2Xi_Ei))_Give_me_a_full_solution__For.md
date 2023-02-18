@@ -1,0 +1,1 @@
+ Summarize this in English. And link to the question and to the answer.
